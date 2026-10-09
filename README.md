@@ -1,107 +1,123 @@
 # 📊 Data Analysis
 
-Welcome to my **Data Analysis** repository! 🚀
+Welcome to my **Data Analysis Repository**! 🚀
 
-This repository contains my **Data Analysis learning journey, practice programs, datasets, Exploratory Data Analysis (EDA), data visualization, and real-world projects**.
+This repository represents my journey of learning and practicing **Data
+Analysis using Python, NumPy, Pandas, SQL, Statistics, and Data
+Visualization**.
 
-The main purpose of this repository is to learn how to transform **raw data into meaningful insights** using Python and various data analysis tools.
+It contains programming practice, data-cleaning exercises, Exploratory
+Data Analysis (EDA), statistical analysis, visualization techniques,
+datasets, SQL queries, and practical data analysis projects.
 
----
+The main goal of this repository is to learn how to transform **raw data
+into meaningful insights** that can support better decision-making.
+
+------------------------------------------------------------------------
 
 ## 📌 About Data Analysis
 
-**Data Analysis** is the process of collecting, cleaning, transforming, exploring, and interpreting data to discover useful information, patterns, trends, and relationships.
+**Data Analysis** is the process of collecting, cleaning, transforming,
+exploring, analyzing, and interpreting data to discover useful
+information, patterns, trends, and relationships.
 
 In simple words:
 
-> **Data Analysis converts raw data into meaningful insights that can help in decision-making.**
+> **Data Analysis converts raw data into meaningful insights that help
+> us understand problems and make better decisions.**
 
-For example, a company may have thousands of customer records. Using Data Analysis, we can find:
+For example, a company may analyze customer and sales data to find:
 
-* Which product is selling the most?
-* Which city has the highest sales?
-* Who are the most valuable customers?
-* What are the monthly sales trends?
-* Are there any unusual values?
-* Which factors affect sales?
+-   Which product has the highest sales?
+-   Which city generates the most revenue?
+-   Which month has the highest sales?
+-   Who are the most valuable customers?
+-   Are there unusual values or outliers?
+-   Which factors affect sales?
+-   What trends can be observed?
+-   What may happen in the future?
 
----
+------------------------------------------------------------------------
 
-## 🎯 Objectives
+# 🎯 Objectives
 
 The main objectives of this repository are:
 
-* Learn the fundamentals of Data Analysis.
-* Understand and work with real-world datasets.
-* Learn data cleaning and preprocessing.
-* Perform Exploratory Data Analysis (EDA).
-* Understand basic statistical concepts.
-* Create meaningful data visualizations.
-* Identify patterns and trends.
-* Analyze relationships between variables.
-* Extract useful insights from datasets.
-* Improve Python, NumPy, and Pandas skills.
-* Practice SQL for data analysis.
-* Build real-world Data Analysis projects.
-* Develop a strong foundation for Data Science and Machine Learning.
+-   Learn the fundamentals of Data Analysis.
+-   Strengthen Python programming skills.
+-   Learn NumPy for numerical computing.
+-   Learn Pandas for data manipulation.
+-   Understand data cleaning and preprocessing.
+-   Perform Exploratory Data Analysis (EDA).
+-   Understand important statistical concepts.
+-   Create meaningful data visualizations.
+-   Identify patterns and trends in datasets.
+-   Analyze relationships between variables.
+-   Detect outliers and anomalies.
+-   Practice SQL for data analysis.
+-   Work with real-world datasets.
+-   Build practical Data Analysis projects.
+-   Develop analytical and problem-solving skills.
+-   Build a strong foundation for Data Science and Machine Learning.
 
----
+------------------------------------------------------------------------
 
 # 🔄 Data Analysis Workflow
 
-A typical Data Analysis workflow is:
-
-```text
-              Raw Data
-                  ↓
-          Data Collection
-                  ↓
-          Data Understanding
-                  ↓
-           Data Cleaning
-                  ↓
-         Data Preprocessing
-                  ↓
-        Exploratory Data Analysis
-                  ↓
-        Statistical Analysis
-                  ↓
-        Data Visualization
-                  ↓
-          Find Patterns
-                  ↓
-          Generate Insights
-                  ↓
-        Data-Driven Decisions
+``` text
+                    Raw Data
+                       ↓
+                Data Collection
+                       ↓
+              Data Understanding
+                       ↓
+                Data Cleaning
+                       ↓
+             Data Preprocessing
+                       ↓
+         Exploratory Data Analysis
+                       ↓
+             Statistical Analysis
+                       ↓
+              Data Visualization
+                       ↓
+              Pattern Detection
+                       ↓
+              Insight Generation
+                       ↓
+             Decision Making
 ```
 
----
+------------------------------------------------------------------------
 
 # 📚 Topics Covered
 
 ## 1. 🐍 Python for Data Analysis
 
-Python is one of the most widely used programming languages for Data Analysis.
+Python is one of the most widely used programming languages for Data
+Analysis because of its simplicity and powerful libraries.
 
-Topics include:
+### Topics Covered
 
-* Variables
-* Data Types
-* Operators
-* Conditional Statements
-* Loops
-* Functions
-* Lists
-* Tuples
-* Sets
-* Dictionaries
-* File Handling
-* Exception Handling
-* Modules
+-   Variables
+-   Data Types
+-   Operators
+-   Conditional Statements
+-   Loops
+-   Functions
+-   Lists
+-   Tuples
+-   Sets
+-   Dictionaries
+-   Strings
+-   File Handling
+-   Exception Handling
+-   Modules
+-   Basic Object-Oriented Programming
 
-Example:
+### Example
 
-```python
+``` python
 numbers = [10, 20, 30, 40, 50]
 
 total = sum(numbers)
@@ -111,29 +127,31 @@ print("Total:", total)
 print("Average:", average)
 ```
 
----
+------------------------------------------------------------------------
 
 # 2. 🔢 NumPy
 
-**NumPy (Numerical Python)** is a Python library used for numerical and scientific computing.
+**NumPy (Numerical Python)** is a Python library used for numerical
+computing and scientific operations.
 
 ### Topics Covered
 
-* NumPy Arrays
-* Array Creation
-* Array Indexing
-* Array Slicing
-* Array Dimensions
-* Reshaping
-* Mathematical Operations
-* Statistical Functions
-* Aggregation
-* Broadcasting
-* Random Number Generation
+-   NumPy Arrays
+-   Array Creation
+-   Array Indexing
+-   Array Slicing
+-   Array Dimensions
+-   Reshaping
+-   Mathematical Operations
+-   Statistical Functions
+-   Aggregation
+-   Broadcasting
+-   Random Number Generation
+-   Matrix Operations
 
 ### Example
 
-```python
+``` python
 import numpy as np
 
 data = np.array([10, 20, 30, 40, 50])
@@ -144,41 +162,44 @@ print("Minimum:", np.min(data))
 print("Sum:", np.sum(data))
 ```
 
----
+------------------------------------------------------------------------
 
 # 3. 🐼 Pandas
 
-**Pandas** is one of the most important Python libraries for Data Analysis.
+**Pandas** is one of the most important Python libraries for Data
+Analysis.
 
-It provides two important data structures:
+It provides two major data structures:
 
-* Series
-* DataFrame
+-   Series
+-   DataFrame
 
 ### Topics Covered
 
-* Creating Series
-* Creating DataFrames
-* Reading CSV files
-* Reading Excel files
-* Inspecting datasets
-* Selecting rows and columns
-* Filtering data
-* Sorting data
-* Adding columns
-* Removing columns
-* Handling missing values
-* Removing duplicate records
-* GroupBy
-* Aggregation
-* Merge
-* Join
-* Concatenation
-* Pivot Tables
+-   Creating Series
+-   Creating DataFrames
+-   Reading CSV files
+-   Reading Excel files
+-   Inspecting datasets
+-   Selecting rows and columns
+-   Filtering data
+-   Sorting data
+-   Adding columns
+-   Removing columns
+-   Renaming columns
+-   Handling missing values
+-   Removing duplicates
+-   GroupBy
+-   Aggregation
+-   Merge
+-   Join
+-   Concatenation
+-   Pivot Tables
+-   Data Type Conversion
 
 ### Example
 
-```python
+``` python
 import pandas as pd
 
 df = pd.read_csv("data.csv")
@@ -188,145 +209,120 @@ print(df.info())
 print(df.describe())
 ```
 
----
+------------------------------------------------------------------------
 
 # 4. 🧹 Data Cleaning
 
-Real-world data is usually not perfect.
+Real-world datasets are often incomplete or inconsistent.
 
-A dataset can contain:
+A dataset may contain:
 
-* Missing values
-* Duplicate records
-* Incorrect data types
-* Invalid values
-* Outliers
-* Inconsistent formatting
-* Incorrect spellings
-* Unnecessary columns
+-   Missing values
+-   Duplicate records
+-   Incorrect data types
+-   Invalid values
+-   Outliers
+-   Inconsistent formatting
+-   Incorrect spellings
+-   Unnecessary columns
 
-Data Cleaning is performed before analysis to improve the quality of the data.
+### Check Missing Values
 
-### Checking Missing Values
-
-```python
+``` python
 df.isnull().sum()
 ```
 
-### Removing Missing Values
+### Remove Missing Values
 
-```python
+``` python
 df.dropna()
 ```
 
-### Filling Missing Values
+### Fill Missing Values
 
-```python
+``` python
 df.fillna(0)
 ```
 
-### Removing Duplicate Records
+### Remove Duplicate Records
 
-```python
+``` python
 df.drop_duplicates()
 ```
 
----
+### Convert Data Types
+
+``` python
+df["Age"] = df["Age"].astype(int)
+```
+
+------------------------------------------------------------------------
 
 # 5. 🔎 Exploratory Data Analysis (EDA)
 
-**Exploratory Data Analysis (EDA)** is the process of investigating a dataset to understand its structure, patterns, relationships, and characteristics.
+**Exploratory Data Analysis (EDA)** is the process of investigating a
+dataset to understand its structure, characteristics, patterns,
+relationships, and possible problems.
 
 EDA helps answer questions such as:
 
-* How many rows are present?
-* How many columns are present?
-* What type of data is available?
-* Are there missing values?
-* Are there duplicate records?
-* What are the minimum and maximum values?
-* What is the distribution of the data?
-* Are there outliers?
-* Are variables correlated?
+-   How many rows are present?
+-   How many columns are present?
+-   What type of data is available?
+-   Are there missing values?
+-   Are there duplicate records?
+-   What are the minimum and maximum values?
+-   How is the data distributed?
+-   Are there outliers?
+-   Are variables correlated?
+-   Which categories occur most frequently?
 
 ### Common Pandas Commands
 
-```python
+``` python
 df.head()
-```
-
-Displays the first few records.
-
-```python
 df.tail()
-```
-
-Displays the last few records.
-
-```python
 df.shape
-```
-
-Returns the number of rows and columns.
-
-```python
 df.columns
-```
-
-Displays column names.
-
-```python
 df.info()
-```
-
-Provides information about the dataset.
-
-```python
 df.describe()
-```
-
-Provides statistical summary.
-
-```python
 df.isnull().sum()
+df.duplicated().sum()
 ```
 
-Checks missing values.
-
----
+------------------------------------------------------------------------
 
 # 6. 📊 Data Visualization
 
-Data Visualization represents data using graphs and charts.
+Data Visualization represents information using charts and graphs.
 
-Visualization makes it easier to identify:
+Visualization makes it easier to understand:
 
-* Trends
-* Patterns
-* Relationships
-* Comparisons
-* Distributions
-* Outliers
+-   Trends
+-   Patterns
+-   Comparisons
+-   Relationships
+-   Distributions
+-   Outliers
+-   Category-wise performance
 
-### Common Charts
+### Common Visualizations
 
-| Visualization | Purpose               |
-| ------------- | --------------------- |
-| Line Chart    | Show trends over time |
-| Bar Chart     | Compare categories    |
-| Pie Chart     | Show proportions      |
-| Histogram     | Show distribution     |
-| Scatter Plot  | Show relationship     |
-| Box Plot      | Detect outliers       |
-| Heatmap       | Show correlation      |
-
----
+  Visualization   Purpose
+  --------------- -------------------------
+  Line Chart      Show trends over time
+  Bar Chart       Compare categories
+  Pie Chart       Show proportions
+  Histogram       Show data distribution
+  Scatter Plot    Show relationships
+  Box Plot        Detect outliers
+  Heatmap         Show correlation
+  Area Chart      Show changes over time
+  Count Plot      Show category frequency
 
 ## 📈 Line Chart
 
-A line chart is commonly used to show changes or trends over time.
-
-```python
+``` python
 import matplotlib.pyplot as plt
 
 plt.plot(months, sales)
@@ -338,13 +334,9 @@ plt.ylabel("Sales")
 plt.show()
 ```
 
----
-
 ## 📊 Bar Chart
 
-Bar charts are useful for comparing different categories.
-
-```python
+``` python
 plt.bar(products, sales)
 
 plt.title("Product Sales")
@@ -354,27 +346,23 @@ plt.ylabel("Sales")
 plt.show()
 ```
 
----
-
 ## 🥧 Pie Chart
 
-Pie charts show how a total is divided into different categories.
-
-```python
-plt.pie(sales, labels=products, autopct="%1.1f%%")
+``` python
+plt.pie(
+    sales,
+    labels=products,
+    autopct="%1.1f%%"
+)
 
 plt.title("Sales Distribution")
 
 plt.show()
 ```
 
----
-
 ## 🔵 Scatter Plot
 
-Scatter plots are used to understand the relationship between two numerical variables.
-
-```python
+``` python
 plt.scatter(age, salary)
 
 plt.xlabel("Age")
@@ -385,13 +373,9 @@ plt.title("Age vs Salary")
 plt.show()
 ```
 
----
-
 ## 📦 Box Plot
 
-Box plots can be used to understand data distribution and identify possible outliers.
-
-```python
+``` python
 plt.boxplot(salary)
 
 plt.title("Salary Distribution")
@@ -399,82 +383,84 @@ plt.title("Salary Distribution")
 plt.show()
 ```
 
----
+------------------------------------------------------------------------
 
 # 7. 📐 Statistical Analysis
 
-Statistics is an important part of Data Analysis.
-
 Important statistical concepts include:
 
-* Mean
-* Median
-* Mode
-* Minimum
-* Maximum
-* Range
-* Variance
-* Standard Deviation
-* Percentiles
-* Quartiles
-* Correlation
+-   Mean
+-   Median
+-   Mode
+-   Minimum
+-   Maximum
+-   Range
+-   Variance
+-   Standard Deviation
+-   Percentiles
+-   Quartiles
+-   Correlation
+-   Covariance
 
 ### Mean
 
-The mean represents the average value.
-
-```python
+``` python
 df["Salary"].mean()
 ```
 
 ### Median
 
-The median represents the middle value when data is arranged in order.
-
-```python
+``` python
 df["Salary"].median()
+```
+
+### Mode
+
+``` python
+df["Salary"].mode()
 ```
 
 ### Standard Deviation
 
-Standard deviation measures how spread out the values are.
-
-```python
+``` python
 df["Salary"].std()
 ```
 
----
+------------------------------------------------------------------------
 
 # 8. 🔗 Correlation Analysis
 
 Correlation helps identify the relationship between two variables.
 
-The correlation value generally ranges from:
-
-```text
+``` text
 -1 ---------------- 0 ---------------- +1
-Strong Negative    No Relationship    Strong Positive
+
+Strong Negative    No/Weak            Strong Positive
+Correlation        Correlation         Correlation
 ```
 
 Example:
 
-```python
+If study hours increase and marks also increase, there may be a
+**positive correlation** between study hours and marks.
+
+``` python
 df.corr(numeric_only=True)
 ```
 
-### Example
+> Correlation does not necessarily mean that one variable causes the
+> other.
 
-If study hours increase and marks also increase, there may be a **positive correlation** between study hours and marks.
-
----
+------------------------------------------------------------------------
 
 # 9. 🚨 Outlier Detection
 
-An **outlier** is a value that is significantly different from the other observations.
+An **outlier** is a value that is significantly different from the other
+observations.
 
 Example:
 
-```text
+``` text
 10
 12
 11
@@ -483,34 +469,46 @@ Example:
 100
 ```
 
-Here, `100` may be considered an outlier.
+Here, `100` may be considered an outlier depending on the dataset and
+analysis.
 
-Common techniques for detecting outliers include:
+### Common Methods
 
-* Box Plot
-* IQR Method
-* Z-Score
-* Statistical Analysis
+-   Box Plot
+-   IQR Method
+-   Z-Score
+-   Statistical Analysis
 
----
+### IQR Method
+
+``` python
+Q1 = df["Salary"].quantile(0.25)
+Q3 = df["Salary"].quantile(0.75)
+
+IQR = Q3 - Q1
+
+lower = Q1 - 1.5 * IQR
+upper = Q3 + 1.5 * IQR
+
+outliers = df[
+    (df["Salary"] < lower) |
+    (df["Salary"] > upper)
+]
+```
+
+------------------------------------------------------------------------
 
 # 10. 📊 GroupBy and Aggregation
 
-Grouping allows us to analyze data based on categories.
+The `groupby()` function allows data to be analyzed based on categories.
 
-For example:
-
-```python
+``` python
 df.groupby("Department")["Marks"].mean()
 ```
 
-This can answer:
-
-> What is the average marks for each department?
-
 Common aggregation functions:
 
-```python
+``` text
 mean()
 sum()
 count()
@@ -521,11 +519,62 @@ median()
 
 Example:
 
-```python
+``` python
 df.groupby("Department")["Salary"].sum()
 ```
 
----
+------------------------------------------------------------------------
+
+# 11. 🔄 Data Transformation
+
+Common data transformation operations include:
+
+-   Renaming columns
+-   Changing data types
+-   Creating new columns
+-   Applying functions
+-   Encoding categories
+-   Scaling numerical values
+-   Extracting date information
+-   Combining columns
+
+Example:
+
+``` python
+df["Total"] = df["Price"] * df["Quantity"]
+```
+
+------------------------------------------------------------------------
+
+# 12. 🗃️ SQL for Data Analysis
+
+SQL is used to retrieve and analyze data stored in relational databases.
+
+### Topics Covered
+
+-   SELECT
+-   WHERE
+-   ORDER BY
+-   GROUP BY
+-   HAVING
+-   DISTINCT
+-   Aggregate Functions
+-   JOIN
+-   Subqueries
+-   CASE
+-   INSERT
+-   UPDATE
+-   DELETE
+
+### Example
+
+``` sql
+SELECT department, AVG(salary)
+FROM employees
+GROUP BY department;
+```
+
+------------------------------------------------------------------------
 
 # 📋 Types of Data Analysis
 
@@ -539,12 +588,12 @@ Answers:
 
 Example:
 
-```text
+``` text
 Total Sales = ₹10,00,000
 Average Sales = ₹25,000
 ```
 
----
+It summarizes historical data.
 
 ## 2. Diagnostic Analysis
 
@@ -552,17 +601,17 @@ Answers:
 
 > **Why did it happen?**
 
-Example:
-
-```text
-Sales decreased
+``` text
+Sales Decreased
        ↓
 Customer Orders Decreased
        ↓
 Product Prices Increased
+       ↓
+Customer Demand Decreased
 ```
 
----
+It focuses on identifying possible reasons behind an event.
 
 ## 3. Predictive Analysis
 
@@ -570,9 +619,7 @@ Answers:
 
 > **What is likely to happen?**
 
-Historical data can be analyzed to predict future outcomes.
-
-```text
+``` text
 Historical Data
        ↓
 Analysis / Model
@@ -580,68 +627,62 @@ Analysis / Model
 Future Prediction
 ```
 
----
-
 ## 4. Prescriptive Analysis
 
 Answers:
 
 > **What should we do?**
 
-Example:
-
-```text
+``` text
 Sales are decreasing
        ↓
 Analyze Customer Behavior
        ↓
 Identify Problem
        ↓
-Recommend Discount
+Recommend Action
        ↓
 Improve Sales
 ```
 
----
+------------------------------------------------------------------------
 
 # 🛠️ Tools & Technologies
 
-| Technology       | Purpose                   |
-| ---------------- | ------------------------- |
-| Python           | Programming and Analysis  |
-| NumPy            | Numerical Computing       |
-| Pandas           | Data Manipulation         |
-| Matplotlib       | Data Visualization        |
-| Seaborn          | Statistical Visualization |
-| Jupyter Notebook | Interactive Analysis      |
-| Google Colab     | Cloud-Based Analysis      |
-| Excel            | Spreadsheet Analysis      |
-| SQL              | Database Analysis         |
-| Power BI         | Business Intelligence     |
-| Tableau          | Data Visualization        |
-| Git              | Version Control           |
-| GitHub           | Repository Management     |
+  Technology         Purpose
+  ------------------ -------------------------------
+  Python             Programming and Data Analysis
+  NumPy              Numerical Computing
+  Pandas             Data Manipulation
+  Matplotlib         Data Visualization
+  Seaborn            Statistical Visualization
+  Jupyter Notebook   Interactive Analysis
+  Google Colab       Cloud-Based Analysis
+  Excel              Spreadsheet Analysis
+  SQL                Database Analysis
+  Power BI           Business Intelligence
+  Tableau            Data Visualization
+  Git                Version Control
+  GitHub             Repository Management
 
----
+------------------------------------------------------------------------
 
-# 📦 Libraries Used
+# 📦 Python Libraries
 
-The major Python libraries used in this repository include:
-
-```python
+``` python
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 ```
 
----
+Additional libraries may be used depending on the project.
+
+------------------------------------------------------------------------
 
 # 📁 Repository Structure
 
-The repository is organized into different sections:
-
-```text
+``` text
 Data-Analysis/
 │
 ├── README.md
@@ -649,18 +690,26 @@ Data-Analysis/
 ├── Python/
 │   ├── Basics/
 │   ├── Functions/
+│   ├── Data_Structures/
 │   └── File_Handling/
 │
 ├── NumPy/
 │   ├── Arrays/
 │   ├── Operations/
+│   ├── Mathematics/
 │   └── Practice/
 │
 ├── Pandas/
 │   ├── Series/
 │   ├── DataFrame/
 │   ├── Data_Cleaning/
+│   ├── GroupBy/
 │   └── Practice/
+│
+├── Statistics/
+│   ├── Descriptive_Statistics/
+│   ├── Correlation/
+│   └── Probability/
 │
 ├── EDA/
 │   ├── Datasets/
@@ -673,6 +722,7 @@ Data-Analysis/
 │
 ├── SQL/
 │   ├── Queries/
+│   ├── Joins/
 │   └── Practice/
 │
 ├── Projects/
@@ -685,66 +735,27 @@ Data-Analysis/
     └── Excel/
 ```
 
----
+> The folder structure can be updated as new topics and projects are
+> added.
 
-# 🚀 How to Run the Repository
-
-## Step 1: Clone the Repository
-
-```bash
-git clone https://github.com/YOUR-USERNAME/Data-Analysis.git
-```
-
-## Step 2: Open the Repository
-
-```bash
-cd Data-Analysis
-```
-
-## Step 3: Create Virtual Environment
-
-```bash
-python -m venv venv
-```
-
-## Step 4: Activate Virtual Environment
-
-For Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-## Step 5: Install Required Libraries
-
-```bash
-pip install numpy pandas matplotlib seaborn jupyter openpyxl
-```
-
-## Step 6: Start Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
----
+------------------------------------------------------------------------
 
 # 💻 Example Data Analysis
 
 Suppose we have a customer dataset:
 
-```text
-Customer | Age | City | Purchase
----------------------------------
-A        | 21  | Pune | 500
+``` text
+Customer | Age | City   | Purchase
+-----------------------------------
+A        | 21  | Pune   | 500
 B        | 25  | Mumbai | 900
-C        | 20  | Pune | 700
-D        | 30  | Delhi | 400
+C        | 20  | Pune   | 700
+D        | 30  | Delhi  | 400
 ```
 
 ### Load Dataset
 
-```python
+``` python
 import pandas as pd
 
 df = pd.read_csv("customers.csv")
@@ -752,37 +763,37 @@ df = pd.read_csv("customers.csv")
 
 ### View Dataset
 
-```python
+``` python
 print(df.head())
 ```
 
 ### Check Dataset Information
 
-```python
+``` python
 print(df.info())
 ```
 
 ### Statistical Summary
 
-```python
+``` python
 print(df.describe())
 ```
 
 ### Calculate Average Purchase
 
-```python
+``` python
 print(df["Purchase"].mean())
 ```
 
 ### Analyze Purchases by City
 
-```python
+``` python
 print(df.groupby("City")["Purchase"].mean())
 ```
 
 ### Visualize Results
 
-```python
+``` python
 import matplotlib.pyplot as plt
 
 df.groupby("City")["Purchase"].mean().plot(kind="bar")
@@ -794,37 +805,65 @@ plt.ylabel("Average Purchase")
 plt.show()
 ```
 
----
+------------------------------------------------------------------------
 
-# 🧠 Data Analysis Skills
+# 📊 Data Analysis Project Workflow
 
-By working on this repository, I am developing the following skills:
+``` text
+Problem Definition
+       ↓
+Data Collection
+       ↓
+Data Understanding
+       ↓
+Data Cleaning
+       ↓
+Data Preprocessing
+       ↓
+EDA
+       ↓
+Statistical Analysis
+       ↓
+Visualization
+       ↓
+Insight Generation
+       ↓
+Conclusion
+```
 
-* Python Programming
-* NumPy
-* Pandas
-* Data Cleaning
-* Data Preprocessing
-* Exploratory Data Analysis
-* Statistical Analysis
-* Data Visualization
-* Data Interpretation
-* Problem Solving
-* Analytical Thinking
-* SQL
-* Excel
-* Power BI
-* Tableau
-* Git
-* GitHub
+The objective is not only to create graphs but also to explain **what
+the data is telling us**.
 
----
+------------------------------------------------------------------------
+
+# 🧠 Skills Developed
+
+Through this repository, I am developing skills in:
+
+-   Python Programming
+-   NumPy
+-   Pandas
+-   Data Cleaning
+-   Data Preprocessing
+-   Exploratory Data Analysis
+-   Statistical Analysis
+-   Data Visualization
+-   Data Interpretation
+-   SQL
+-   Excel
+-   Power BI
+-   Tableau
+-   Problem Solving
+-   Analytical Thinking
+-   Data Storytelling
+-   Git
+-   GitHub
+
+------------------------------------------------------------------------
 
 # 📈 Learning Roadmap
 
-My Data Analysis roadmap:
-
-```text
+``` text
 Python
    ↓
 NumPy
@@ -854,58 +893,144 @@ Data Science
 Machine Learning
 ```
 
----
+------------------------------------------------------------------------
+
+# 🚀 Practical Projects
+
+This repository will contain practical exercises and real-world data
+analysis projects covering areas such as:
+
+### 📊 Exploratory Data Analysis
+
+Analyzing datasets to identify patterns, trends, relationships, and
+anomalies.
+
+### 📈 Sales Analysis
+
+Analyzing sales data to understand:
+
+-   Revenue
+-   Product performance
+-   Customer behavior
+-   Monthly trends
+-   Regional performance
+
+### 👥 Customer Analysis
+
+Analyzing customer information to understand:
+
+-   Customer segments
+-   Purchasing behavior
+-   Customer value
+-   Spending patterns
+
+### 📉 Statistical Analysis
+
+Applying statistical methods to understand distributions, relationships,
+and trends.
+
+### 📊 Business Intelligence
+
+Creating dashboards and reports using:
+
+-   Excel
+-   Power BI
+-   Tableau
+
+------------------------------------------------------------------------
 
 # 🔮 Future Improvements
 
 I will continue improving this repository by adding:
 
-* More Data Analysis exercises
-* More real-world datasets
-* Advanced Pandas operations
-* Advanced EDA projects
-* Statistical analysis projects
-* SQL projects
-* Excel dashboards
-* Power BI dashboards
-* Tableau dashboards
-* End-to-end Data Analysis projects
-* Data Science projects
-* Machine Learning projects
+-   More Python practice programs
+-   Advanced NumPy operations
+-   Advanced Pandas operations
+-   More real-world datasets
+-   Advanced EDA projects
+-   Statistical analysis projects
+-   SQL projects
+-   Excel dashboards
+-   Power BI dashboards
+-   Tableau dashboards
+-   Data storytelling projects
+-   End-to-end Data Analysis projects
+-   Data Science projects
+-   Machine Learning projects
 
----
+------------------------------------------------------------------------
 
 # 🎯 Goal
 
-The long-term goal of this repository is to build strong practical knowledge in **Data Analysis, Data Science, and Machine Learning**.
+The long-term goal of this repository is to build strong practical
+knowledge in:
 
-The focus is not only on writing code but also on understanding:
+**Data Analysis → Data Science → Machine Learning**
 
-```text
+The main focus is not only on writing code but also on understanding the
+complete analytical process:
+
+``` text
 What happened?
       ↓
 Why did it happen?
       ↓
 What patterns exist?
       ↓
+What relationships exist?
+      ↓
 What may happen next?
       ↓
 What should we do?
 ```
 
----
+------------------------------------------------------------------------
+
+# 📚 What I Am Learning
+
+My current focus is on building a strong foundation in:
+
+``` text
+Python
+   +
+NumPy
+   +
+Pandas
+   +
+Statistics
+   +
+EDA
+   +
+Data Visualization
+   +
+SQL
+   +
+Excel
+   +
+Power BI
+   +
+Tableau
+```
+
+These skills provide a foundation for further learning in **Data
+Science, Artificial Intelligence, and Machine Learning**.
+
+------------------------------------------------------------------------
 
 # ⭐ Conclusion
 
-Data Analysis is an important skill for converting raw data into useful information.
+Data Analysis is an important skill for converting raw data into useful
+information and actionable insights.
 
-This repository documents my journey of learning and implementing:
+This repository documents my learning journey through:
 
-**Python → NumPy → Pandas → Data Cleaning → EDA → Statistics → Visualization → SQL → BI → Real-World Projects**
+**Python → NumPy → Pandas → Data Cleaning → EDA → Statistics →
+Visualization → SQL → BI → Real-World Projects**
 
-I will continue updating this repository as I learn new concepts and work on new projects.
+I will continue updating this repository as I learn new concepts, solve
+problems, analyze datasets, and build practical projects.
 
----
+------------------------------------------------------------------------
 
 # 👨‍💻 Author
 
@@ -915,18 +1040,20 @@ I will continue updating this repository as I learn new concepts and work on new
 
 ### Interests
 
-* 📊 Data Analysis
-* 📈 Data Science
-* 🤖 Artificial Intelligence
-* 🧠 Machine Learning
-* 🐍 Python
-* 🗄️ SQL
-* 📊 Business Intelligence
+-   📊 Data Analysis
+-   📈 Data Science
+-   🤖 Artificial Intelligence
+-   🧠 Machine Learning
+-   🐍 Python
+-   🗄️ SQL
+-   📊 Business Intelligence
+-   📉 Data Visualization
 
----
+------------------------------------------------------------------------
 
 # ⭐ Support
 
-If you find this repository useful, please consider giving it a ⭐ on GitHub.
+If you find this repository useful, please consider giving it a ⭐ on
+GitHub.
 
 Thank you for visiting my **Data Analysis Repository!** 🚀
